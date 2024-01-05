@@ -205,7 +205,7 @@ function App() {
 
           <div className='row-btns'>
             <button className='reset-btn'
-            onClick={() => setNumber('')}
+            onClick={() => setNumber('0')}
             >Reset</button>
             <button 
             type="submit"
